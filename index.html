@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Github Issues App</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="window-container">
+      <aside class="window-sidebar">
+        <div class="controls">
+          <button type="button" name="close" class="controls__btn controls__btn--close"></button>
+          <button type="button" name="minimize" class="controls__btn controls__btn--minimize"></button>
+          <button type="button" name="zoom" class="controls__btn controls__btn--zoom"></button>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__list__item nav__list__item--all" href="#all" id="all">All <span class="nav__list__result">12</span></a></li>
+            <li><a class="nav__list__item nav__list__item--open" href="#open" id="open">Open <span class="nav__list__result">4</span></a></li>
+            <li><a class="nav__list__item nav__list__item--closed" href="#closed" id="closed">Closed <span class="nav__list__result">8</span></a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="window-content">
+        <article class="card" id="card-0">
+          <time class="card__header" datetime="19-07-2016">19-07-2016</time>
+          <ul class="checkbox-list">
+            <li class="checkbox-list__tile">Page changes
+              <input type="checkbox" class="icon-input"  id="icon-0-0">
+              <label class="icon-label" for="icon-0-0"></label>
+            </li>
+            <li class="checkbox-list__tile">Review of last issues
+              <input type="checkbox" class="icon-input"  id="icon-0-1">
+              <label class="icon-label" for="icon-0-1"></label>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card" id="card-1">
+          <time class="card__header" datetime="18-07-2016">18-07-2016</time>
+          <ul class="checkbox-list">
+            <li class="checkbox-list__tile">Visual UI Update Review
+              <input type="checkbox" class="icon-input"  id="icon-1-0">
+              <label class="icon-label" for="icon-1-0"></label>
+            </li>
+            <li class="checkbox-list__tile">Sidebar changes
+              <input type="checkbox" class="icon-input"  id="icon-1-1">
+              <label class="icon-label" for="icon-1-1"></label>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card" id="card-2">
+          <time class="card__header" datetime="15-07-2016">15-07-2016</time>
+          <ul class="checkbox-list">
+            <li class="checkbox-list__tile">Crash Update
+              <input type="checkbox" class="icon-input"  id="icon-2-0">
+              <label class="icon-label" for="icon-2-0"></label>
+            </li>
+            <li class="checkbox-list__tile">Page visual UI Update Review
+              <input type="checkbox" class="icon-input"  id="icon-2-1">
+              <label class="icon-label" for="icon-2-1"></label>
+            </li>
+            <li class="checkbox-list__tile">Sidebar update
+              <input type="checkbox" class="icon-input"  id="icon-2-2">
+              <label class="icon-label" for="icon-2-2"></label>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card" id="card-3">
+          <time class="card__header" datetime="14-07-2016">14-07-2016</time>
+          <ul class="checkbox-list">
+            <li class="checkbox-list__tile">Crash Issue
+              <input type="checkbox" class="icon-input"  id="icon-3-0">
+              <label class="icon-label" for="icon-3-0"></label>
+            </li>
+            <li class="checkbox-list__tile">Page visual UI Update Review
+              <input type="checkbox" class="icon-input"  id="icon-3-1">
+              <label class="icon-label" for="icon-3-1"></label>
+            </li>
+            <li class="checkbox-list__tile">Visual update &amp; Crash Resolve
+              <input type="checkbox" class="icon-input"  id="icon-3-2">
+              <label class="icon-label" for="icon-3-2"></label>
+            </li>
+          </ul>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+// *** Checkbox List ***
+.checkbox-list
+  &__tile
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border-radius: 5px
+    border: 1px solid $border
+    padding: 11px 14px
+    background-color: $white
+    color: $text-dark
+    font-size: 15px
+    font-weight: 400
+    &:not(:last-child)
+      margin-bottom: 5px
+
+.icon-label
+  position: relative
+  display: block
+  cursor: pointer
+  &::before
+    content: ''
+    display: block
+    @include size(17px, 16px)
+    margin-right: -100%
+    @extend %icon-non-active
+  &:hover::before
+    @extend %icon-active
+.icon-input
+  position: absolute
+  left: -99999px
+  &:checked
+    + .icon-label::before
+        @extend %icon-active

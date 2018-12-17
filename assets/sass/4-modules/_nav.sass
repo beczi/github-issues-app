@@ -1,0 +1,32 @@
+// *** Nav ***
+.nav__list
+  font-size: 14px
+  font-weight: 400
+  font-style: normal
+  &__item
+    display: flex
+    align-items: center
+    padding: 0 15px
+    min-height: 50px
+    color: $text-light
+    text-align: left
+    cursor: pointer
+    &:hover, &:target, &:focus
+      background-color: $bg-active
+    &:focus
+      outline: none
+    &::before
+      content: ''
+      @include size(16px)
+      margin-right: 9px
+    &--all::before
+      @include bg-img($icon-path, 'icon-github.svg')
+    &--open::before
+      @include bg-img($icon-path, 'icon-open-issue.svg')
+    &--closed::before
+      @include bg-img($icon-path, 'icon-closed-issue.svg')
+  &__result
+    margin-left: auto
+    color:  $text-muted
+    text-align: center
+    font-family: $font-family-cust
