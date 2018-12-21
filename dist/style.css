@@ -11,8 +11,7 @@
   background-repeat: no-repeat;
   /* 1 */
   box-sizing: border-box;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Add text decoration inheritance in all browsers (opinionated).
@@ -23,8 +22,7 @@
   text-decoration: inherit;
   /* 1 */
   vertical-align: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Use the default cursor in all browsers (opinionated).
@@ -51,8 +49,7 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 5 */
   word-break: break-word;
-  /* 6 */
-}
+  /* 6 */ }
 
 /* Sections
  * ========================================================================== */
@@ -60,8 +57,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -69,8 +65,7 @@ body {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
  * ========================================================================== */
@@ -82,23 +77,20 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct display in IE.
  */
 main {
-  display: block;
-}
+  display: block; }
 
 /**
  * Remove the list style on navigation lists in all browsers (opinionated).
  */
 nav ol,
 nav ul {
-  list-style: none;
-}
+  list-style: none; }
 
 /**
  * 1. Use the default monospace user interface font
@@ -109,8 +101,7 @@ pre {
   font-family: Menlo, Consolas, Roboto Mono, Ubuntu Monospace, Oxygen Mono, Liberation Mono, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
  * ========================================================================== */
@@ -118,24 +109,21 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * Add the correct text decoration in Edge, IE, Opera, and Safari.
  */
 abbr[title] {
   text-decoration: underline;
-  text-decoration: underline dotted;
-}
+  text-decoration: underline dotted; }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Use the default monospace user interface font
@@ -148,15 +136,13 @@ samp {
   font-family: Menlo, Consolas, Roboto Mono, Ubuntu Monospace, Oxygen Mono, Liberation Mono, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /*
  * Remove the text shadow on text selections in Firefox 61- (opinionated).
@@ -168,16 +154,14 @@ small {
   /* 1 */
   color: #000;
   /* 1 */
-  text-shadow: none;
-}
+  text-shadow: none; }
 
 ::selection {
   background-color: #b3d4fc;
   /* 1 */
   color: #000;
   /* 1 */
-  text-shadow: none;
-}
+  text-shadow: none; }
 
 /* Embedded content
  * ========================================================================== */
@@ -190,45 +174,39 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 /**
  * Add the correct display in IE 9-.
  */
 audio,
 video {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in iOS 4-7.
  */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /**
  * Change the fill color to match the text color in all browsers (opinionated).
  */
 svg {
-  fill: currentColor;
-}
+  fill: currentColor; }
 
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Tabular data
  * ========================================================================== */
@@ -236,8 +214,7 @@ svg:not(:root) {
  * Collapse border spacing in all browsers (opinionated).
  */
 table {
-  border-collapse: collapse;
-}
+  border-collapse: collapse; }
 
 /* Forms
  * ========================================================================== */
@@ -250,8 +227,7 @@ select,
 textarea {
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit;
-}
+  line-height: inherit; }
 
 /**
  * Remove the margin in Safari.
@@ -259,8 +235,7 @@ textarea {
 button,
 input,
 select {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * 1. Show the overflow in IE.
@@ -270,32 +245,28 @@ button {
   overflow: visible;
   /* 1 */
   text-transform: none;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * Show the overflow in Edge and IE.
  */
 input {
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -309,8 +280,7 @@ legend {
   max-width: 100%;
   /* 1 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * 1. Add the correct display in Edge and IE.
@@ -320,15 +290,13 @@ progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inheritance of text transform in Firefox.
  */
 select {
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * 1. Remove the margin in Firefox and Safari.
@@ -341,50 +309,44 @@ textarea {
   overflow: auto;
   /* 2 */
   resize: vertical;
-  /* 3 */
-}
+  /* 3 */ }
 
 /**
  * Remove the padding in IE 10-.
  */
-[type=checkbox],
-[type=radio] {
-  padding: 0;
-}
+[type="checkbox"],
+[type="radio"] {
+  padding: 0; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Safari.
  */
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * Correct the text style of placeholders in Chrome, Edge, and Safari.
  */
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: 0.54;
-}
+  opacity: 0.54; }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -394,23 +356,20 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner border and padding of focus outlines in Firefox.
  */
 ::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus outline styles unset by the previous rule in Firefox.
  */
 :-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /* Interactive
  * ========================================================================== */
@@ -418,8 +377,7 @@ textarea {
  * Add the correct display in Edge and IE.
  */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct styles in Edge, IE, and Safari.
@@ -439,19 +397,16 @@ dialog {
   right: 0;
   width: -moz-fit-content;
   width: -webkit-fit-content;
-  width: fit-content;
-}
+  width: fit-content; }
 
 dialog:not([open]) {
-  display: none;
-}
+  display: none; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Scripting
  * ========================================================================== */
@@ -459,15 +414,13 @@ summary {
  * Add the correct display in IE 9-.
  */
 canvas {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /* User interaction
  * ========================================================================== */
@@ -488,31 +441,27 @@ textarea,
   -ms-touch-action: manipulation;
   /* 1 */
   touch-action: manipulation;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct display in IE 10-.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* Accessibility
  * ========================================================================== */
 /**
  * Change the cursor on busy elements in all browsers (opinionated).
  */
-[aria-busy=true] {
-  cursor: progress;
-}
+[aria-busy="true"] {
+  cursor: progress; }
 
 /*
  * Change the cursor on control elements in all browsers (opinionated).
  */
 [aria-controls] {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 /*
  * Change the cursor on disabled, not-editable, or otherwise
@@ -520,47 +469,40 @@ textarea,
  */
 [aria-disabled],
 [disabled] {
-  cursor: not-allowed;
-}
+  cursor: not-allowed; }
 
 /*
  * Change the display on visually hidden accessible elements
  * in all browsers (opinionated).
  */
-[aria-hidden=false][hidden]:not(:focus) {
+[aria-hidden="false"][hidden]:not(:focus) {
   clip: rect(0, 0, 0, 0);
   display: inherit;
-  position: absolute;
-}
+  position: absolute; }
 
-.icon-input:checked + .icon-label::before, .icon-label:hover::before {
-  background-image: url("../images/icons/icon-star-active.svg");
-}
+.icon-label:hover::before, .icon-input:checked + .icon-label::before {
+  background-image: url("assets/images/icons/icon-star-active.svg"); }
 
 .icon-label::before {
-  background-image: url("../images/icons/icon-star.svg");
-}
+  background-image: url("assets/images/icons/icon-star.svg"); }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("../images/bg.jpg");
+  background-image: url("assets/images/bg.jpg");
   background-size: cover;
   background-position: top center;
-  font-family: roboto, sans-serif;
-}
+  font-family: "Roboto", sans-serif; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 ul {
   padding: 0;
   margin: 0;
-  list-style: none;
-}
+  list-style: none; }
 
 .window-container {
   width: 100%;
@@ -569,15 +511,13 @@ ul {
   display: flex;
   margin: auto;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px #807b7b;
-}
+  box-shadow: 0px 0px 20px #807b7b; }
 
 .window-sidebar {
   min-width: 150px;
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
-  background-color: rgba(16, 16, 34, 0.95);
-}
+  background-color: rgba(16, 16, 34, 0.95); }
 
 .window-content {
   width: 100%;
@@ -586,76 +526,60 @@ ul {
   overflow-x: auto;
   border-top-right-radius: inherit;
   border-bottom-right-radius: inherit;
-  background-color: #f6f6f6;
-}
+  background-color: #f6f6f6; }
 
 .controls {
   padding: 8px 14px;
   border-radius: inherit;
-  background-color: #101022;
-}
-.controls__btn {
-  position: relative;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  padding: 0;
-  border: none;
-}
-.controls__btn--close {
-  background-color: #ff594f;
-}
-.controls__btn--minimize {
-  background-color: #ffbc1b;
-}
-.controls__btn--zoom {
-  background-color: #00cd46;
-}
-.controls__btn + .bar__btn {
-  margin: 0 0 0 5px;
-}
+  background-color: #101022; }
+  .controls__btn {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 0;
+    border: none; }
+    .controls__btn--close {
+      background-color: #ff594f; }
+    .controls__btn--minimize {
+      background-color: #ffbc1b; }
+    .controls__btn--zoom {
+      background-color: #00cd46; }
+    .controls__btn + .bar__btn {
+      margin: 0 0 0 5px; }
 
 .nav__list {
   font-size: 14px;
   font-weight: 400;
-  font-style: normal;
-}
-.nav__list__item {
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-  min-height: 50px;
-  color: #fff;
-  text-align: left;
-  cursor: pointer;
-}
-.nav__list__item:hover, .nav__list__item:target, .nav__list__item:focus {
-  background-color: #292a48;
-}
-.nav__list__item:focus {
-  outline: none;
-}
-.nav__list__item::before {
-  content: "";
-  width: 16px;
-  height: 16px;
-  margin-right: 9px;
-}
-.nav__list__item--all::before {
-  background-image: url("../images/icons/icon-github.svg");
-}
-.nav__list__item--open::before {
-  background-image: url("../images/icons/icon-open-issue.svg");
-}
-.nav__list__item--closed::before {
-  background-image: url("../images/icons/icon-closed-issue.svg");
-}
-.nav__list__result {
-  margin-left: auto;
-  color: #8a8995;
-  text-align: center;
-  font-family: proxima-nova, sans-serif;
-}
+  font-style: normal; }
+  .nav__list__item {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    min-height: 50px;
+    color: #fff;
+    text-align: left;
+    cursor: pointer; }
+    .nav__list__item:hover, .nav__list__item:target, .nav__list__item:focus {
+      background-color: #292a48; }
+    .nav__list__item:focus {
+      outline: none; }
+    .nav__list__item::before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      margin-right: 9px; }
+    .nav__list__item--all::before {
+      background-image: url("assets/images/icons/icon-github.svg"); }
+    .nav__list__item--open::before {
+      background-image: url("assets/images/icons/icon-open-issue.svg"); }
+    .nav__list__item--closed::before {
+      background-image: url("assets/images/icons/icon-closed-issue.svg"); }
+  .nav__list__result {
+    margin-left: auto;
+    color: #8a8995;
+    text-align: center;
+    font-family: proxima-nova, sans-serif; }
 
 .checkbox-list__tile {
   display: flex;
@@ -667,38 +591,31 @@ ul {
   background-color: #fff;
   color: #080606;
   font-size: 15px;
-  font-weight: 400;
-}
-.checkbox-list__tile:not(:last-child) {
-  margin-bottom: 5px;
-}
+  font-weight: 400; }
+  .checkbox-list__tile:not(:last-child) {
+    margin-bottom: 5px; }
 
 .icon-label {
   position: relative;
   display: block;
-  cursor: pointer;
-}
-.icon-label::before {
-  content: "";
-  display: block;
-  width: 17px;
-  height: 16px;
-  margin-right: -100%;
-}
+  cursor: pointer; }
+  .icon-label::before {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 16px;
+    margin-right: -100%; }
+
 .icon-input {
   position: absolute;
-  left: -99999px;
-}
-.card {
-  margin-bottom: 9px;
-}
-.card__header {
-  margin-bottom: 8px;
-  display: block;
-  color: #8a8995;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: left;
-}
+  left: -99999px; }
 
-/*# sourceMappingURL=main.css.map */
+.card {
+  margin-bottom: 9px; }
+  .card__header {
+    margin-bottom: 8px;
+    display: block;
+    color: #8a8995;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left; }
